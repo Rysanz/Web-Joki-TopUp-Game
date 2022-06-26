@@ -14,7 +14,7 @@ if($_SESSION['username']) {
     <img class="mySlides" src="img/PBID.jpg" style="width:100%">
     </div> 
 
-    <div class="card-row">
+    <!-- <div class="card-row">
         <h2>Game</h2>
         <a href="window_topup.php">
         <div class="card-column">
@@ -54,8 +54,22 @@ if($_SESSION['username']) {
             </div>
         </div>
         </a>
-    </div> 
+    </div>  -->
 
+    <?php $posts = $conn->query("SELECT * FROM data");
+    while($post = $posts->fetch_object()) {
+    ?> 
+    <div class="card-row">
+        <div class="card-column">
+            <div class="class">
+                <div><img src ="img/<?php echo $post->gambar ?>"width= "100%">
+                <h3><?php echo $post->title ?></h3>
+            </div>
+        </div>
+    </div>
+    <?php
+    }
+    ?>
 </body>
 
 <?php include 'footer.php'; ?>

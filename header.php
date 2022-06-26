@@ -15,7 +15,7 @@
 
 <body>
     <header class="header">
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <span class="titik3" style="font-size:45px;cursor:pointer;" onclick="openNav()">&#9776;</span>
         <div class="header_container">
             <div class="header__nav">
                 <div class="text-header" style="display:flex;">
@@ -42,11 +42,11 @@
 
 </body>
 
-<div id="mySidenav" class="sidenav">
+<!-- <div id="mySidenav" class="sidenav">
         <a href="index.php">HOME</a>
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="about.php">About</a>
         <a class="dropdown" href="#">Contact
         <div class="dropdown-content">
             <p>+0361-12387</p>
-    </div>
+    </div> -->

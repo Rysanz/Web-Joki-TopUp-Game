@@ -5,10 +5,11 @@
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: #876445; /* Black*/
+    background-color: #f1f1f1; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
   }
   
   /* The navigation menu links */
@@ -42,3 +43,9 @@
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
+
+.titik3 {
+    position: absolute;
+    left: 95%;
+    top: 27px;
+}
