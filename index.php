@@ -14,7 +14,7 @@ if($_SESSION['username']) {
     <img class="mySlides" src="img/PBID.jpg" style="width:100%">
     </div> 
 
-    <section class="category1">
+    <!-- <section class="category1">
         <div class="category1__container">
             <h1 class="category1__title">Populer</h1>
             <div class="category1__produk">
@@ -40,7 +40,39 @@ if($_SESSION['username']) {
                 </a>
             </div>
         </div>
-    </section>
+    </section> -->
+
+    <div class="card-row">
+        <div class="card-column">
+            <div class="class">
+                <img src="img/ML.jpg">
+                <h3>Mobile Legend</h3>
+
+            </div>
+        </div>
+        <div class="card-column">
+            <div class="class">
+                <img src="img/free-fire-max.jpg">
+                <h3>Free Fire</h3>
+                
+            </div>
+        </div>
+        <div class="card-column">
+            <div class="class">
+                <img src="img/PUBG.jpg">
+                <h3>PUBG</h3>
+                
+            </div>
+        </div>
+        <div class="card-column">
+            <div class="class">
+                <img src="img/apex.png">
+                <h3>Apex</h3>
+                
+            </div>
+        </div>
+    </div> 
+
 </body>
 
 <?php include 'footer.php'; ?>
