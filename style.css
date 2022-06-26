@@ -14,8 +14,21 @@ html{
     
 }
 
-h1{
+h1 {
     font-size: 28pt;
+}
+
+h2 {
+    color: #f1f1f1;
+    font-size: 25pt;
+    margin-bottom: 0px;
+    text-align: left;
+    margin-left: 15px;
+    text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    color: rgb(255, 170, 0);
 }
 
 body{
@@ -40,6 +53,7 @@ body{
 .class img {
     height: 100px;
     max-width: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .card-row {
@@ -48,12 +62,13 @@ body{
 }
 
 .card-column {
-    width: 25%;
+    width: 200px;
     float: left;
     padding: 0 16px;
 }
 .class {
     background-color: white;
+    margin-top: 10%;
     padding: 10px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
     transition: 0.6s;
@@ -73,21 +88,6 @@ body{
     }
 }
     
-
-/* .card {
-    background-color: dodgerblue;
-    color: white;
-    padding: 1rem;
-    height: 4rem;
-  }
-  
-  .cards {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  } */
 .text-header{
     color: rgb(255, 170, 0);
     font-family: 'Roboto', sans-serif;
@@ -102,52 +102,7 @@ body{
     -moz-osx-font-smoothing: grayscale;
 }
 
-/* .category{
-    width:100%;
-    max-width:74rem;
-    margin:0 auto 1rem
-}
-.category__container{
-    padding:0 0.5rem 1.5rem
-}
-@media only screen and (max-width: 48em){
-    .category__container{
-        padding:0 1.3rem 1.5rem
-    }
-}
-.category__title{
-    text-transform:uppercase;
-    font-size:2rem;
-    color:#fff;
-    margin-bottom:2rem
-}
-.category__product{
-    display:grid;
-    grid-template-columns:repeat(4, 1fr);
-    gap:2rem 2.5rem
-}
-@media only screen and (max-width: 37.5em){
-    .category__product{
-        grid-template-columns:repeat(3, 1fr);
-        gap:1.5rem 1rem
-    }
-}
-.category__product-container{
-    text-decoration:none
-}
-.category__product-img{
-    display:block;
-    width:100%;
-    -o-object-fit:cover;
-    object-fit:cover;
-    border-radius:1.5rem
-}
-.category__product-title{
-    color:#fff;
-    font-size:1.3rem;
-    padding:1rem 0;
-    text-align:center
-} */
+
 .footer {
     position: fixed;
     left: 0;

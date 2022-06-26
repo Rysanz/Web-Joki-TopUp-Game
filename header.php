@@ -7,11 +7,15 @@
     <title>Top Up & Joki Game</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="slide.css">
+    <link rel="stylesheet" href="sidenav.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
 </head>
 
+
+
 <body>
     <header class="header">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
         <div class="header_container">
             <div class="header__nav">
                 <div class="text-header" style="display:flex;">
@@ -21,20 +25,28 @@
             </div>
         </div>
     </header>
-    <script>
-        var myIndex = 0;
-        carousel();
 
-        function carousel() {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";  
+    <script>
+        function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
         }
-        myIndex++;
-        if (myIndex > x.length) {myIndex = 1}    
-        x[myIndex-1].style.display = "block";  
-        setTimeout(carousel, 2000); // Change image every 2 seconds
-        }
+
+        /* Set the width of the side navigation to 0 */
+        function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.body.style.backgroundColor = "white";
+        } 
     </script>
+
+
 </body>
+
+<div id="mySidenav" class="sidenav">
+        <a href="index.php">HOME</a>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="about.php">About</a>
+        <a class="dropdown" href="#">Contact
+        <div class="dropdown-content">
+            <p>+0361-12387</p>
+    </div>
