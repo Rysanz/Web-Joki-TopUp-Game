@@ -13,6 +13,7 @@ if($_SESSION['username']) {
     <img class="mySlides" src="img/PBID.jpg" style="width:100%">
     <img class="mySlides" src="img/PBID.jpg" style="width:100%">
     </div> 
+    
 
     <!-- <div class="card-row">
         <h2>Game</h2>
@@ -60,6 +61,7 @@ if($_SESSION['username']) {
     while($post = $posts->fetch_object()) {
     ?> 
     <div class="card-row">
+        <a href="window_topup.php">
         <div class="card-column">
             <div class="class">
                 <div><img src ="img/<?php echo $post->gambar ?>"width= "100%">
