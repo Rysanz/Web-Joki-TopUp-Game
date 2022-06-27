@@ -11,13 +11,10 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
 </head>
 
-
-
-<body>
-    <header class="header">
+<header class="header">
     <span class="titik3" style="font-size:45px;cursor:pointer;" onclick="openNav()">&#9776;</span>
-        <div class="header_container">
-            <div class="header__nav">
+        <!-- <div class="header_container">
+            <div class="header__nav"> -->
                 <div class="text-header" style="display:flex;">
                     <h1>Top Up & Joki Game</h1>
                     <p style="margin-top: 45px; margin-left: 20px;">Selamat datang di website Top Up & Joki Game</p>
@@ -25,6 +22,9 @@
             </div>
         </div>
     </header>
+
+<body>
+    
 
     <script>
         function openNav() {
@@ -42,11 +42,3 @@
 
 </body>
 
-<!-- <div id="mySidenav" class="sidenav">
-        <a href="index.php">HOME</a>
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="about.php">About</a>
-        <a class="dropdown" href="#">Contact
-        <div class="dropdown-content">
-            <p>+0361-12387</p>
-    </div> -->

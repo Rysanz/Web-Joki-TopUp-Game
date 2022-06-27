@@ -7,13 +7,8 @@ if($_SESSION['username']) {
 ?>
 <?php include 'header.php'; ?>
 
+
 <body>
-    <div class="w3-content w3-section" style="max-width:500px">
-    <img class="mySlides" src="img/PBID.jpg" style="width:100%">
-    <img class="mySlides" src="img/PBID.jpg" style="width:100%">
-    <img class="mySlides" src="img/PBID.jpg" style="width:100%">
-    </div> 
-    
 
     <!-- <div class="card-row">
         <h2>Game</h2>
@@ -73,5 +68,4 @@ if($_SESSION['username']) {
     }
     ?>
 </body>
-
 <?php include 'footer.php'; ?>
