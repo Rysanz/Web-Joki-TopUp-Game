@@ -21,5 +21,4 @@
                     <p>Project UAS Web Programming Concept by Made Ary Sanjaya, Ni Kadek Sekar Ayu Natalia, Salwa Alif Iwafani, I Gusti Arya Sidhi Narendra & Jordania Candra Dao</p>
                 </div>
             </div>
-        </div>
-    </div>
+

@@ -11,17 +11,17 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
 </head>
 
-<header class="header">
+<div class="kepala">
     <span class="titik3" style="font-size:45px;cursor:pointer;" onclick="openNav()">&#9776;</span>
         <!-- <div class="header_container">
             <div class="header__nav"> -->
-                <div class="text-header" style="display:flex;">
-                    <h1>Top Up & Joki Game</h1>
-                    <p style="margin-top: 45px; margin-left: 20px;">Selamat datang di website Top Up & Joki Game</p>
+                <div class="text-header" style="text-align: left;display: flex;">
+                    <h1 style="margin-top: 17px;">Top Up & Joki Game</h1>
+                    <p style="margin-top: 38px; margin-left: 20px;">Selamat datang di website Top Up & Joki Game</p>
                 </div>
             </div>
         </div>
-    </header>
+</div>
 
 <body>
     
