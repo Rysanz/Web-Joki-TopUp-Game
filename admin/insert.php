@@ -4,7 +4,7 @@ include "header.php"
        
 <div class="row">
   <div class="column">
-  <div class="card">
+  <div class="class">
   
     <a>Game Baru</a>
     <table>

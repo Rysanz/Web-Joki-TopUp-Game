@@ -18,9 +18,9 @@
     ?>
 
 <div id="mySidenav" class="side">
-<a href="../index.php">HOME</a>
+<a href="index.php">HOME</a>
 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">About</a>
+  <a href="about.php">About</a>
   <a href="#">Services</a>
   <a href="#">Clients</a>
   <a href="#">Contact</a>

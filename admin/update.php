@@ -3,7 +3,7 @@ $id = $_GET['id'];
 $bek  = $conn->query("select * from data where id='$id'");
 $row        = mysqli_fetch_array($bek);
 ?>
-<div class="card">
+<div class="class">
 <a>Edit Produk</br>
 <form action="index.php" method="post" enctype="multipart/form-data">
 
