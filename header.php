@@ -12,7 +12,8 @@
 </head>
 
 <div class="kepala">
-    <span class="titik3" style="font-size:45px;cursor:pointer;" onclick="openNav()">&#9776;</span>
+    <span class="titik3" style="font-size:45px;cursor:pointer; margin-top: -14px;" onclick="openNav()">&#9776;</span>
+    
         <!-- <div class="header_container">
             <div class="header__nav"> -->
                 <div class="text-header" style="text-align: left;display: flex;">
@@ -35,10 +36,11 @@
         /* Set the width of the side navigation to 0 */
         function closeNav() {
         document.getElementById("mySidenav").style.width = "0";
-        document.body.style.backgroundColor = "white";
+        document.body.style.backgroundColor = "";
         } 
     </script>
 
 
 </body>
+
 

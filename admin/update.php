@@ -1,7 +1,7 @@
 <?php include "header.php";
 $id = $_GET['id'];
-$anime  = $conn->query("select * from post where id='$id'");
-$row        = mysqli_fetch_array($anime);
+$bek  = $conn->query("select * from data where id='$id'");
+$row        = mysqli_fetch_array($bek);
 ?>
 <div class="card">
 <a>Edit Produk</br>
@@ -11,7 +11,7 @@ $row        = mysqli_fetch_array($anime);
     <input type="hidden" value="<?php echo $row['id'];?>" name="id_anime">
     <input type="hidden" name="submit" value="update">
         <table>
-        <tr>
+        	<tr>
 				<td>Gambar </td>
 				<td style = "position: relative; left: 50px;"><input type="file" name="image"></td>					
 			</tr>
@@ -22,6 +22,6 @@ $row        = mysqli_fetch_array($anime);
 				<td></td>
 				<td><input type="submit" value="Simpan"></td>			
 			</tr>
-</table>
+		</table>
 </form>
 </div>

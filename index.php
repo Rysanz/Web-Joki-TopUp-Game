@@ -1,10 +1,4 @@
-<?php
-session_start();
-if($_SESSION['username']) {
-} else {
-    header("Location: login.php");
-}
-?>
+
 <?php include 'header.php'; ?>
 <?php include 'footer.php'; ?>
     <?php $posts = $conn->query("SELECT * FROM data");
@@ -23,3 +17,11 @@ if($_SESSION['username']) {
     }
     ?>
 
+<div id="mySidenav" class="side">
+<a href="../index.php">HOME</a>
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+  <a href="admin">Admin</a>
