@@ -10,7 +10,7 @@ include "header.php"
     <table>
     <form action="index.php" method="post" enctype="multipart/form-data">
         <tr>
-        <input type="hidden" name="bek" value="insert"></tr>	
+        <input type="text" name="bek" value="insert"></tr>	
           <tr>
             <td>Gambar </td>
             <td style = "position: relative; left: 50px;"><input type="file" name="image"></td>					

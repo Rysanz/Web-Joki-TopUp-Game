@@ -1,7 +1,7 @@
 <?php include "header.php";
 $id = $_GET['id'];
 $bek  = $conn->query("select * from data where id='$id'");
-$row        = mysqli_fetch_array($bek);
+$row = mysqli_fetch_array($bek);
 ?>
 <div class="class">
 <a>Edit Produk</br>

@@ -9,7 +9,6 @@ if($_SESSION['username']) {
 <?php include '../footer.php'; ?>
     
 <?php
-if(isset($_POST["bek"]) && $_POST["bek"] == 'insert')
 
 if($_POST["bek"] == 'insert') {
     $target_dir = "../img/";
@@ -27,11 +26,12 @@ if($_POST["submit"] == 'update'){
     move_uploaded_file($_FILES["image"]["tmp_name"], $target_file);
     $title = $_POST['title'];
     $gmb = $_FILES["image"]["name"];
-    $id = $_POST['id_anime'];
+    $id = $_POST['id_bek'];
     $conn->query("UPDATE data set title='$title', gambar='$gmb' WHERE id='$id'");
 }
 $posts = $conn->query("SELECT * FROM data");
 ?>
+
 <?php
 while($post = $posts->fetch_object()) {
  ?>
