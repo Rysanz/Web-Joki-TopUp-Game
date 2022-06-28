@@ -8,7 +8,7 @@ $row        = mysqli_fetch_array($bek);
 <form action="index.php" method="post" enctype="multipart/form-data">
 
 <input type="hidden" name="submit" value="update">
-    <input type="hidden" value="<?php echo $row['id'];?>" name="id_anime">
+    <input type="hidden" value="<?php echo $row['id'];?>" name="id_bek">
     <input type="hidden" name="submit" value="update">
         <table>
         	<tr>
